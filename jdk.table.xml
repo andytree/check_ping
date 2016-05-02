@@ -1,0 +1,29 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.5.1 (D:\Python35\python.exe)" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.1" />
+      <homePath value="D:\Python35\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://D:/Python35/DLLs" />
+            <root type="simple" url="file://D:/Python35/Lib" />
+            <root type="simple" url="file://D:/Python35" />
+            <root type="simple" url="file://D:/Python35/Lib/site-packages" />
+            <root type="simple" url="file://D:/Python35/Lib/site-packages/win32" />
+            <root type="simple" url="file://D:/Python35/Lib/site-packages/win32/lib" />
+            <root type="simple" url="file://D:/Python35/Lib/site-packages/pythonwin" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/943167800" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
