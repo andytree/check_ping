@@ -61,35 +61,6 @@ serv_n = {'10.128.180.2': 'MS SQL数据库',
           }
 #有问题的ip，重复ping的次数统计
 re_ping = {}
-##对配置文件进行相关操作
-'''fp = open('config.ini','r')
-for line in fp:
-    line = line.strip()
-    #如果是注释，则跳过
-    if line[0:1] == '#':
-        continue
-    #如果有等号那么久分离，取出参数
-    par = line.split('=')
-    #如果是空行，则跳过
-    if len(par) <= 1:
-        continue
-    #去除参数，判断配置文件，赋给不同的配置参数
-    if 'ip' == par[0]:
-        ping_ip.append(par[1])
-        #serv_index.append(par[2])
-    elif 'times' == par[0]:
-        times = int(par[1])
-    elif 'delay' == par[0]:
-        delay = int(par[1])
-    elif 'cmd' == par[0]:
-        ping_cmd = par[1]
-    elif 'log_file'== par[0]:
-        log_file = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()) + par[1]
-    elif 'result_file' == par[0]:
-        result_file = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()) + par[1]
-        #print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())+par[1])
-        #result_file = par[1]
-fp.close()'''
 # print(ping_ip,times,delay,ping_cmd,result_file)
 
 #对日志文件进行操作,对文件进行
