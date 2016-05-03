@@ -35,7 +35,7 @@
         <option name="PATH_TO_PPK" value="" />
       </value>
     </option>
-    <option name="PATH_TO_PASSWORD_FILE" />
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
     <option name="TIMEOUT" value="10" />
     <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
     <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
@@ -46,6 +46,14 @@
     <option name="DO_OUTPUT" value="false" />
     <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
     <option name="SHOW_PATH" value="true" />
+  </component>
+  <component name="ImportConfiguration">
+    <option name="VENDOR" />
+    <option name="RELEASE_TAG" />
+    <option name="LOG_MESSAGE" />
+    <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+    <option name="KEYWORD_SUBSTITUTION_WRAPPERS" value="" />
+    <option name="MAKE_NEW_FILES_READ_ONLY" value="false" />
   </component>
   <component name="PyCodeInsightSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FUNCTION" value="true" />
